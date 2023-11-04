@@ -1,0 +1,148 @@
+body {
+    color: #ffffff;
+    background: linear-gradient(to left, #9d33f3, #8d33f3);
+    background-repeat: repeat;
+    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.baiTapJS .container {
+    max-width: 800px;
+}
+
+.baiTapJS__content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    height: 500px;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    padding: 50px;
+    border: 1px solid rgb(235, 233, 233);
+    background: linear-gradient(111.29deg, rgba(255, 255, 255, 0.53) -1.83%, rgba(255, 255, 255, 0) 109.95%);
+    box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(70px);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+/*? screeen for min width>= 769px(this is a big screen) */
+.baiTapJS__content .nav-tabs {
+    width: 100%;
+    border: none;
+}
+
+.baiTapJS__content .tab-pane {
+    padding: 15px;
+    margin: 20px 0;
+}
+
+
+.baiTapJS__content .nav-tabs .nav-item {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    width: 20%;
+}
+
+.baiTapJS__content .nav-tabs .nav-item .nav-link {
+    border: none;
+    width: 100%;
+    color: #514947ed;
+    border-bottom: 3px solid white;
+    padding: 15px
+}
+
+.baiTapJS__content .nav-tabs .nav-item .nav-link::before {
+    content: "📒"
+}
+
+.baiTapJS__content .nav-tabs .nav-item .nav-link.active {
+    color: #3749ae !important;
+    border-bottom-color: #3749ae !important;
+    background: none;
+}
+
+.baiTapJS__content .nav-tabs .nav-item .nav-link.active::before {
+    content: "📖"
+}
+
+.baiTapJS__content .tab-pane form {
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+.baiTapJS__content .tab-pane input {
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 20%);
+    outline: none;
+    padding: 15px;
+    font-size: 17px;
+    color: white;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.baiTapJS__content .tab-pane input:hover {
+    border-color: #9d33f3;
+}
+
+.baiTapJS__content .tab-pane button {
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    background-size: 200%;
+    box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: "br_omega", sans-serif;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.baiTapJS__content .tab-pane button:hover{
+    background-position: right center;
+}
+
+.baiTapJS__content .tab-pane .alert{
+    width: 100%;
+    margin: 10px 0 0;
+    padding: 10px 0;
+}
+
+.alert-danger {
+    --bs-alert-color: #842029e3;
+    --bs-alert-bg: #f8d7daa6;
+    --bs-alert-border-color: #f5c2c7c4;
+  }
+
+.baiTapJS__content .tab-pane.bai2 input{
+    font-size: 16px;
+    margin: 0 3px;
+    padding: 10px 8px;
+
+}
+
+.baiTapJS__content .tab-pane.bai2 .row{
+    justify-content: center;
+    margin: 10px;
+}
+
+.baiTapJS__content .tab-pane.bai3 .alert{
+    margin-top: 20px;
+}
+
